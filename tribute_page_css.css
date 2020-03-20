@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding-top: 50px;
+}
+
+nav {
+  background-color: #111;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.video-wrapper {
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.bg-red {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+  margin: 15px auto 0;
+}
+
+.social-url a {
+  font-size: 32px;
+}
+
+.img-div p{
+  background-color:#eee;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.tribute-info {
+  max-width: 450px;
+  margin: 0 10px;
+}
+
+.twitter-tweet {
+  max-width: 300px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  display: block;
+}
